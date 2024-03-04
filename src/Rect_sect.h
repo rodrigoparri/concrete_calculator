@@ -9,5 +9,5 @@ public:
 public:
 	Rect_sect();
 	Rect_sect(double b, double h, double f_ck);
-
+	Rect_sect(const Rect_sect& section);
 };
